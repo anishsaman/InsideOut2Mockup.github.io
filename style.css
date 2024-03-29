@@ -1,0 +1,130 @@
+body{
+    background: linear-gradient(#88E9EC, #B6EEF0, blue, tomato, #40CACF, purple, pink, #B6EEF0);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.nav-items{ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1{
+    color: white;
+    font-family: "Lilita One";
+    font-size: 70px;
+    text-shadow: color(blue), 2px 2px; 
+    text-align: center;
+    
+}
+
+h2{
+    color: white;
+    font-family: "Lilita One";
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+h3{
+    color: white;
+    font-family: "Lilita One";
+}
+
+p{
+    color: white;
+    width: 600px;
+    height: 400px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#og{
+    display: block;
+    margin: auto;
+
+}
+
+#og2{
+    display: block;
+    margin: auto;
+
+}
+
+#Anxiety{
+    position: absolute;
+    left: 1450px;
+}
+
+#Photo1{
+
+    position: absolute;
+    left: 870px;
+    top: 2800px;
+}
+
+#Paragraph1{
+    position: absolute;
+    left: 300px;
+    top: 3000px;
+}
+
+#Envy{
+    position: absolute;
+    left: 400px;
+    top: 3900px;
+}
+
+#Photo2{
+
+    position: absolute;
+    top: 3600px;
+}
+#P2{
+    position: absolute;
+    left: 1200px;
+    top: 4100px;
+}
+
+#Ennui{
+    position: absolute;
+    left: 1400px;
+    top: 5000px;
+}
+#Photo3{
+
+    position: absolute;
+    left: 1000px;
+    top: 4900px;
+}
+#P3{
+    position: absolute;
+    left: 300px;
+    top: 5300px;
+}
+
+#Embarrassment{
+    position: absolute;
+    left: 300px;
+    top: 6200px;
+}
+#Photo4{
+
+    position: absolute;
+    top: 6150px;
+}
+#P4{
+    position: absolute;
+    left: 1200px;
+    top: 6600px;
+}
+
+.long-break{
+    height: 5000px;
+}
+
+#iframe{
+    display: block;
+    margin: auto;
+}
