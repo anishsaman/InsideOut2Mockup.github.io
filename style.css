@@ -46,7 +46,6 @@ h1{
     color: white;
     font-family: "Lilita One";
     font-size: 70px;
-    text-shadow: color(blue), 2px 2px; 
     text-align: center;
     
 }
@@ -73,6 +72,7 @@ p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
 
 #og{
     display: block;
@@ -185,7 +185,7 @@ p{
 }
 
 .long-break{
-    height: 1050px;
+    height: 1200px;
 }
 
 #iframe{
