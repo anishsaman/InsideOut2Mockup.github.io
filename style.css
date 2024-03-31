@@ -4,8 +4,42 @@ body{
     background-attachment: scroll;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#logo{
+    text-align: left;
+    position: absolute;
+    left: 5%;
+}
+
+
 .nav-items{ 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    text-decoration-line: none;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    
+}
+.nav-items a{
+    text-decoration-line: none;
+    
+}
+
+.nav-items:hover{
+    color: blue;
+}
+
+#scroll{
+    color: white;
+    font-family: "Lilita One";
+    font-size: 100px;
 }
 
 h1{
@@ -52,79 +86,110 @@ p{
 
 }
 
+#container1{
+    position: relative;
+    margin-top: 700px;
+}
+
 #Anxiety{
     position: absolute;
-    left: 1450px;
+    left: 65%; 
 }
 
 #Photo1{
 
     position: absolute;
-    left: 870px;
-    top: 2800px;
+    left: 40%;
+    top: 20%;
+    margin-top: 120px;
 }
 
 #Paragraph1{
     position: absolute;
-    left: 300px;
-    top: 3000px;
+    left: 15%;
+    top: 80%;
+    margin-top: 200px;
+}
+
+
+
+#container2{
+    position: relative;
+    margin-top: 1800px;
 }
 
 #Envy{
     position: absolute;
-    left: 400px;
-    top: 3900px;
+    left: 15%; 
+    margin-top: 300px;
 }
 
 #Photo2{
 
     position: absolute;
-    top: 3600px;
+
 }
 #P2{
     position: absolute;
-    left: 1200px;
-    top: 4100px;
+    left: 60%;
+    top: 80%;
+    margin-top: 500px;
+}
+
+
+
+#container3{
+    position: relative;
+    margin-top: 3300px;
 }
 
 #Ennui{
     position: absolute;
-    left: 1400px;
-    top: 5000px;
+    left: 65%;
+
 }
 #Photo3{
 
     position: absolute;
-    left: 1000px;
-    top: 4900px;
+    left: 45%;
+    top: 20%;
 }
 #P3{
     position: absolute;
-    left: 300px;
-    top: 5300px;
+    left: 15%;
+    top: 80%;
+    margin-top: 500px;
+}
+
+
+#container4{
+    position: relative;
+    margin-top: 4800px;
 }
 
 #Embarrassment{
     position: absolute;
-    left: 300px;
-    top: 6200px;
+    left: 10%;
 }
 #Photo4{
 
     position: absolute;
-    top: 6150px;
+
+
 }
 #P4{
     position: absolute;
-    left: 1200px;
-    top: 6600px;
+    left: 50%;
+    top: 90%;
+    margin-top: 200px;
 }
 
 .long-break{
-    height: 5000px;
+    height: 1050px;
 }
 
 #iframe{
     display: block;
     margin: auto;
+    z-index: 1
 }
